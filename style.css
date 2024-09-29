@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  width: 400vh;
+}
+
+header {
+  position: relative;
+  
+  width: 100%;
+  padding: 0 15px;
+  background-image: url("imagebanner.jpeg");
+  padding-bottom: 15;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  bottom: 15;
+  align-items: 15px;
+}
+.overlay {
+  position: relative;
+  z-index: 2; 
+  transform: translateX(20px); 
+}
+
+nav {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  flex-direction: row;
+  
+  margin: 0 auto;
+  padding: 0 145px;
+}
+.wrapper {
+  margin-top: 50px; /* Сдвиг вниз за счет отступа сверху */
+
+}
+.wrapper {
+  display: flex;            /* Включаем Flexbox */
+  justify-content: flex-start; 
+  gap: 30px;               
+  padding-left: 50px;       /* Сдвиг всей группы вправо на 50px */
+}
+
+.Banner {
+  display: flex;
+  align-items: center;
+}
+
+.Banner img {
+ 
+  margin-right: 50px;
+  height: 40px;
+}
+
+.Banner span {
+  color:white;
+  opacity: 0,8;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container img {
+  height: 30px;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo:hover {
+  opacity: 0.8;
+  display: inline-flex;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  color: white;
+  opacity: 0.8;
+}
+
+.icon svg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 100px;
+
+}
+.overlay:last-child {
+  margin-right: 20;
+}
+
+.input {
+  border: 3px;
+  outline: none;
+}
